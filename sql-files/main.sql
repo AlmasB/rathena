@@ -313,6 +313,7 @@ CREATE TABLE IF NOT EXISTS `charlog` (
 --
 -- Table structure for table `clan`
 --
+
 CREATE TABLE IF NOT EXISTS `clan` (
   `clan_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(24) NOT NULL DEFAULT '',
