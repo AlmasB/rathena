@@ -22,7 +22,7 @@
 		#define PACKETVER_RE
 	#endif
 #endif
-
+/*
 #if PACKETVER >= 20110817
 	/// Comment to disable the official packet obfuscation support.
 	/// This requires PACKETVER 2011-08-17 or newer.
@@ -42,7 +42,7 @@
 		#error You enabled packet obfuscation for a version which is too old. Minimum supported client is 2011-08-17.
 	#endif
 #endif
-
+*/
 /// Comment to disable the official Guild Storage skill.
 /// When enabled, this will set the guild storage size to the level of the skill * 100.
 #if PACKETVER >= 20131223
